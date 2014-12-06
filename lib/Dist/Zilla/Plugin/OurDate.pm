@@ -1,11 +1,13 @@
 package Dist::Zilla::Plugin::OurDate;
 
+# DATE
+# VERSION
+
 use 5.010;
 use strict;
 use warnings;
 
-# VERSION
-# DATE
+use POSIX ();
 
 use Moose;
 with (
