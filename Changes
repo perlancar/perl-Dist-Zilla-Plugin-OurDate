@@ -1,13 +1,13 @@
-0.03    2015-07-04 (PERLANCAR)
+0.03    2015-07-04  Released-By: PERLANCAR
 
 	- Don't replace #DATE below __DATA__ or __END__.
 
 
-0.02    2014-12-06 (PERLANCAR)
+0.02    2014-12-06  Released-By: PERLANCAR
 
 	- [Bugfix] Forgot to 'use POSIX' [GH#1].
 
 
-0.01     2014-04-16 (SHARYANTO)
+0.01     2014-04-16  Released-By: SHARYANTO
 
          - First release.
