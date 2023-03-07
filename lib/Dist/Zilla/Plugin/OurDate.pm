@@ -1,9 +1,6 @@
 package Dist::Zilla::Plugin::OurDate;
 
-# DATE
-# VERSION
-
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 
@@ -20,6 +17,11 @@ with (
 has date_format => (is => 'rw', default => sub { '%Y-%m-%d' });
 
 use namespace::autoclean;
+
+# AUTHORITY
+# DATE
+# DIST
+# VERSION
 
 sub munge_files {
     my $self = shift;
@@ -90,13 +92,13 @@ __PACKAGE__->meta->make_immutable;
 
 =head1 SYNOPSIS
 
-in dist.ini
+In F<dist.ini>:
 
 	[OurDate]
 	; optional, default is '%Y-%m-%d'
-	date_format='%Y-%m-%d'
+	date_format=%Y-%m-%d
 
-in your modules
+in your modules:
 
 	# DATE
 
